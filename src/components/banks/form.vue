@@ -2,7 +2,10 @@
   <div clas="column">
     <div>
       <h6 class="q-ma-none "> Banks</h6>
+       <h6 class="q-ma-none "> yes</h6>
+        <h6 class="q-ma-none "> Bank</h6>
     </div>
+     <div></div>
     <q-form ref="form" class="q-gutter-md">
       <q-input :rules="[validationMandatory, validationNoSpace , validationNoSymbols ]"  dense label="Id" v-model="formData.id" outlined />
       <q-input :rules="[validationMandatory, validationNoSpace , validationNoSymbols ]" dense label="Bank Name" outlined v-model="formData.bank_name" />
